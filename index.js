@@ -1,1 +1,6 @@
-console.log(66666);
+module.exports = {
+  extends: ['stylelint-config-standard', 'stylelint-config-recommended-scss'],
+  rules: {
+
+  },
+};

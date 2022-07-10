@@ -1,9 +1,12 @@
 module.exports = {
-    "root": true,
-    "env": {
-        "node": true,
-        "commonjs": true,
-        "jest": true
-    },
-    "extends": "eslint:all"
+  root: true,
+  env: {
+    commonjs: true,
+    node: true,
+    jest: true,
+  },
+  extends: 'airbnb-base',
+  rules: {
+
+  },
 };
