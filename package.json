@@ -1,0 +1,35 @@
+{
+  "name": "@chasen/stylelint-config-scss",
+  "version": "1.0.0",
+  "description": "shareable config for stylelint",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint **/*.js",
+    "lint-staged": "lint-staged -q"
+  },
+  "lint-staged": {
+    "*.{js}": "npm run eslint"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "eslint": "^8.19.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrChasen/stylelint-config-scss.git"
+  },
+  "author": "-_-",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrChasen/stylelint-config-scss/issues"
+  },
+  "homepage": "https://github.com/MrChasen/stylelint-config-scss#readme"
+}
